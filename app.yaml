@@ -1,0 +1,6 @@
+runtime: aspnetcore
+env: standard
+
+handlers:
+- url: /.*
+  script: auto
