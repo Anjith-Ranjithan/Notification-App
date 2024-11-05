@@ -9,7 +9,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowSpecificOrigin",
-        builder => builder.WithOrigins("http://localhost:8081") // Your Vue app URL
+        builder => builder.WithOrigins("https://project-2024-440809.el.r.appspot.com/") //
                           .AllowAnyHeader()
                           .AllowAnyMethod()
                           .AllowCredentials());
